@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Probabilidades de Mercado</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand"><span class="logo">◭</span><div><h1>Probabilidades de Mercado</h1><p id="updated">Cargando…</p></div></div>
+  <nav class="tabs" id="viewTabs">
+    <button data-view="market" class="on">Mercado</button>
+    <button data-view="portfolio">Mi cartera</button>
+    <button data-view="method">Metodología</button>
+  </nav>
+</header>
+<div id="banner" class="banner" hidden></div>
+
+<main>
+  <section id="view-market">
+    <div class="controls">
+      <div class="seg" id="horizonSeg" aria-label="Horizonte"></div>
+      <div class="seg" id="typeSeg">
+        <button data-type="all" class="on">Todo</button><button data-type="stock">Acciones</button><button data-type="etf">ETF</button>
+      </div>
+      <input id="search" type="search" placeholder="Buscar ticker o nombre…">
+    </div>
+    <div class="layout">
+      <div class="card list"><table id="tbl"><thead><tr>
+        <th data-sort="symbol">Valor</th><th data-sort="price" class="r">Precio</th><th data-sort="change" class="r">Hoy</th>
+        <th data-sort="p_up">Prob. subir</th><th data-sort="exp_ret" class="r">Esperado</th></tr></thead><tbody></tbody></table></div>
+      <div id="detail" class="detail"></div>
+    </div>
+  </section>
+
+  <section id="view-portfolio" hidden>
+    <div class="card">
+      <h2>Añadir posición</h2>
+      <form id="posForm" class="posForm">
+        <label>Ticker<select id="posSym"></select></label>
+        <label>Nº de títulos<input id="posQty" type="number" min="0" step="any" required value="10"></label>
+        <label>Precio medio de compra<input id="posAvg" type="number" min="0" step="any" required></label>
+        <button class="btn">Añadir</button>
+      </form>
+      <p class="muted small">Se guarda solo en tu navegador. Horizonte usado: <b id="pfHz"></b></p>
+    </div>
+    <div id="pfOut"></div>
+  </section>
+
+  <section id="view-method" hidden>
+    <div class="card prose">
+      <h2>Cómo se calculan las probabilidades</h2>
+      <ol>
+        <li><b>Datos:</b> cada día de mercado se descargan hasta 5 años de cierres diarios de cada valor.</li>
+        <li><b>Volatilidad actual:</b> media móvil exponencial (EWMA, λ=0,94) de los rendimientos logarítmicos.</li>
+        <li><b>Deriva:</b> la mitad de la tendencia histórica (recortada) más un pequeño ajuste por señales —precio vs. SMA50/SMA200, momentum a 3 meses y RSI—. El ajuste máximo equivale a ≈5 % anual: <i>los mercados son casi eficientes y las señales aportan poco</i>.</li>
+        <li><b>Simulación:</b> 4.000 trayectorias por horizonte remuestreando (bootstrap) los rendimientos históricos estandarizados, lo que conserva las colas gordas reales.</li>
+        <li><b>Resultados:</b> probabilidad de subir = % de trayectorias positivas; ganancia/pérdida media = media condicionada; rango 80 % = percentiles 10–90.</li>
+        <li><b>Backtest honesto:</b> para cada valor se mide, en datos pasados y sin mirar al futuro, cuántas veces acertó la dirección a 5 días frente a la tasa base. Verás que suele rondar el 50–55 %.</li>
+      </ol>
+      <div class="warn"><b>Aviso:</b> esto es una herramienta estadística educativa, no asesoramiento financiero. Una probabilidad del 55 % significa que 45 de cada 100 veces ocurre lo contrario. El rendimiento pasado no garantiza resultados futuros. No incluye comisiones, impuestos ni divisas.</div>
+    </div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "stocks": [
+    ["AAPL", "Apple"], ["MSFT", "Microsoft"], ["NVDA", "NVIDIA"], ["GOOGL", "Alphabet"],
+    ["AMZN", "Amazon"], ["META", "Meta Platforms"], ["TSLA", "Tesla"], ["JPM", "JPMorgan Chase"],
+    ["XOM", "Exxon Mobil"], ["KO", "Coca-Cola"], ["SAN.MC", "Banco Santander"], ["ITX.MC", "Inditex"]
+  ],
+  "etfs": [
+    ["SPY", "SPDR S&P 500"], ["QQQ", "Invesco Nasdaq 100"], ["VTI", "Vanguard Total Market"],
+    ["IWM", "iShares Russell 2000"], ["EFA", "iShares MSCI EAFE"], ["GLD", "SPDR Gold"],
+    ["TLT", "iShares 20+Y Treasury"], ["XLK", "Technology Select Sector"], ["ARKK", "ARK Innovation"],
+    ["VWCE.DE", "Vanguard FTSE All-World"]
+  ]
+}
