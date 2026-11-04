@@ -1,0 +1,21 @@
+screen.SHADOW_S=Sombras
+screen.LIGHT_S=Iluminación
+screen.IMAGE_S=Imagen y atmósfera
+option.SHADOWS=Sombras
+option.SHADOWS.comment=Sombras del sol y la luna. Es lo que más cuesta en FPS.
+option.shadowMapResolution=Resolución de sombras
+option.shadowMapResolution.comment=1024 = rápido, 2048 = equilibrado, 4096 = nítido.
+option.shadowDistance=Distancia de sombras
+option.shadowDistance.comment=Radio (en bloques) donde se calculan sombras. Menos = más FPS.
+option.SHADOW_SAMPLES=Calidad del suavizado
+option.SHADOW_SAMPLES.comment=Muestras por píxel. 4 es lo más rápido.
+option.SHADOW_SOFTNESS=Suavidad de sombras
+option.sunPathRotation=Inclinación del sol
+option.DYNAMIC_LIGHTS=Luz dinámica
+option.DYNAMIC_LIGHTS.comment=Antorchas, linternas, etc. en la mano iluminan alrededor.
+option.BLOCKLIGHT_STRENGTH=Intensidad luz de bloques
+option.AMBIENT_STRENGTH=Intensidad luz ambiente
+option.WAVING=Vegetación en movimiento
+option.FOG_AMOUNT=Bruma atmosférica
+option.EXPOSURE=Exposición
+option.SATURATION=Saturación
