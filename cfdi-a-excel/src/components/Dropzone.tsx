@@ -5,7 +5,7 @@ import { FileCode2, FolderOpen, Loader2, UploadCloud } from "lucide-react";
 import { filesFromDataTransfer, filesFromList } from "@/lib/files";
 
 interface Props {
-  onFiles: (files: File[], ignored: number) => void;
+  onFiles: (files: File[], ignored: number, linkDropped?: boolean) => void;
   processing: boolean;
 }
 
@@ -26,8 +26,8 @@ export function Dropzone({ onFiles, processing }: Props) {
     depth.current = 0;
     setDragging(false);
     if (processing) return;
-    const { xml, ignored } = await filesFromDataTransfer(e.dataTransfer);
-    onFiles(xml, ignored);
+    const { xml, ignored, linkDropped } = await filesFromDataTransfer(e.dataTransfer);
+    onFiles(xml, ignored, linkDropped);
   };
 
   const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {

@@ -27,12 +27,16 @@ export function Converter() {
   const [modal, setModal] = useState<{ open: boolean; blocked: number }>({ open: false, blocked: 0 });
 
   const handleFiles = useCallback(
-    async (files: File[], ignored: number) => {
+    async (files: File[], ignored: number, linkDropped = false) => {
       setInfo(
         ignored > 0 ? `Se ignoraron ${ignored} ${ignored === 1 ? "archivo" : "archivos"} que no son .xml.` : null,
       );
       if (!files.length) {
-        if (!ignored) setInfo("No se encontraron archivos .xml.");
+        if (linkDropped)
+          setInfo(
+            "Arrastraste un enlace, no un archivo. Descarga primero el XML a tu computadora y arrástralo desde tu carpeta (o usa «Seleccionar archivos»).",
+          );
+        else if (!ignored) setInfo("No se encontraron archivos .xml.");
         return;
       }
       if (trial.remaining === 0) {
@@ -129,7 +133,7 @@ export function Converter() {
 
       <Dropzone onFiles={handleFiles} processing={processing} />
 
-      {info && <p className="text-center text-sm text-slate-500">{info}</p>}
+      {info && <p className="rounded-lg bg-amber-50 px-4 py-3 text-center text-sm text-amber-900" role="status">{info}</p>}
 
       {/* Avisos: archivos con error y advertencias */}
       {errors.length > 0 && (

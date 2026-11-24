@@ -27,6 +27,12 @@ async function walk(entry: FileSystemEntry, out: File[], others: { count: number
 }
 
 export async function filesFromDataTransfer(dt: DataTransfer) {
+  // Arrastrar desde una página web (p. ej. GitHub) entrega un enlace, no un archivo.
+  const hasFiles = Array.from(dt.items).some((i) => i.kind === "file") || dt.files.length > 0;
+  if (!hasFiles) {
+    const linkDropped = dt.types.includes("text/uri-list") || dt.types.includes("text/plain");
+    return { xml: [] as File[], ignored: 0, linkDropped };
+  }
   const xml: File[] = [];
   const others = { count: 0 };
   const entries = Array.from(dt.items)
@@ -42,7 +48,7 @@ export async function filesFromDataTransfer(dt: DataTransfer) {
       else others.count++;
     }
   }
-  return { xml, ignored: others.count };
+  return { xml, ignored: others.count, linkDropped: false };
 }
 
 export function filesFromList(list: FileList | null) {
