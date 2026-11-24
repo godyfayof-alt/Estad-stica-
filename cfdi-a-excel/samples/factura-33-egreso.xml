@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="3.3" Serie="NC" Folio="45" Fecha="2023-11-02T18:05:44" FormaPago="99" SubTotal="1500.50" Moneda="MXN" Total="1740.58" TipoDeComprobante="E" MetodoPago="PUE" LugarExpedicion="64000">
+  <cfdi:Emisor Rfc="AAA010101AAA" Nombre="Distribuidora Ñandú S.A. de C.V." RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="XAXX010101000" Nombre="Público en general" UsoCFDI="G02"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="01010101" Cantidad="1" ClaveUnidad="ACT" Descripcion="Devolución de mercancía" ValorUnitario="1500.50" Importe="1500.50"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="240.08">
+    <cfdi:Traslados><cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="240.08"/></cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="AB12CD34-2222-4EEE-8FFF-123456789ABC" FechaTimbrado="2023-11-02T18:06:00" RfcProvCertif="SAT970701NN3" SelloCFD="x" NoCertificadoSAT="0" SelloSAT="x"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

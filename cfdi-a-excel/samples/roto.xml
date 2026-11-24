@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<cfdi:Comprobante Version="4.0" Total="10">
+  <cfdi:Emisor Rfc="X">
+</cfdi:Comprobante>

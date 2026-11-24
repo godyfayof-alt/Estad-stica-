@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="4.0" Serie="A" Folio="00123" Fecha="2024-03-15T10:22:01" FormaPago="03" SubTotal="10000.00" Descuento="500.00" Moneda="MXN" Total="9943.33" TipoDeComprobante="I" Exportacion="01" MetodoPago="PUE" LugarExpedicion="06600">
+  <cfdi:Emisor Rfc="EKU9003173C9" Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="612"/>
+  <cfdi:Receptor Rfc="XIA190128J61" Nombre="XENON INDUSTRIAL ARTICLES" DomicilioFiscalReceptor="76343" RegimenFiscalReceptor="601" UsoCFDI="G03"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111506" Cantidad="1" ClaveUnidad="E48" Descripcion="Servicios de contabilidad marzo" ValorUnitario="8000.00" Importe="8000.00" Descuento="500.00" ObjetoImp="02">
+      <cfdi:Impuestos><cfdi:Traslados><cfdi:Traslado Base="7500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1200.00"/></cfdi:Traslados></cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="84111506" Cantidad="1" ClaveUnidad="E48" Descripcion="Declaración anual" ValorUnitario="2000.00" Importe="2000.00" ObjetoImp="02"/>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosRetenidos="1576.67" TotalImpuestosTrasladados="1520.00">
+    <cfdi:Retenciones>
+      <cfdi:Retencion Impuesto="001" Importe="950.00"/>
+      <cfdi:Retencion Impuesto="002" Importe="626.67"/>
+    </cfdi:Retenciones>
+    <cfdi:Traslados><cfdi:Traslado Base="9500.00" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1520.00"/></cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="6f3a1b2c-1111-4a2b-9c3d-0e1f2a3b4c5d" FechaTimbrado="2024-03-15T10:23:00" RfcProvCertif="SAT970701NN3" SelloCFD="x" NoCertificadoSAT="0" SelloSAT="x"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

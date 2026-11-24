@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:nomina12="http://www.sat.gob.mx/nomina12" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="4.0" Serie="NOM" Folio="7" Fecha="2024-04-15T09:00:00" SubTotal="15000.00" Descuento="2100.00" Moneda="MXN" Total="12900.00" TipoDeComprobante="N" Exportacion="01" MetodoPago="PUE" LugarExpedicion="06600">
+  <cfdi:Emisor Rfc="EKU9003173C9" Nombre="ESCUELA KEMPER URGATE" RegimenFiscal="601"/>
+  <cfdi:Receptor Rfc="CACX7605101P8" Nombre="XOCHILT CASAS CHAVEZ" DomicilioFiscalReceptor="36257" RegimenFiscalReceptor="605" UsoCFDI="CN01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago de nómina" ValorUnitario="15000.00" Importe="15000.00" Descuento="2100.00" ObjetoImp="01"/>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2024-04-15" TotalPercepciones="15000.00" TotalDeducciones="2100.00">
+      <nomina12:Deducciones TotalOtrasDeducciones="300.00" TotalImpuestosRetenidos="1800.00">
+        <nomina12:Deduccion TipoDeduccion="002" Clave="ISR" Concepto="ISR" Importe="1800.00"/>
+        <nomina12:Deduccion TipoDeduccion="001" Clave="IMSS" Concepto="IMSS" Importe="300.00"/>
+      </nomina12:Deducciones>
+    </nomina12:Nomina>
+    <tfd:TimbreFiscalDigital Version="1.1" UUID="99999999-3333-4AAA-8BBB-CCCCCCCCCCCC" FechaTimbrado="2024-04-15T09:01:00" RfcProvCertif="SAT970701NN3" SelloCFD="x" NoCertificadoSAT="0" SelloSAT="x"/>
+  </cfdi:Complemento>
+</cfdi:Comprobante>
