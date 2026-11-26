@@ -1,0 +1,11 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- anillo platino -->
+    <path android:strokeColor="#D9D9DC" android:strokeWidth="3" android:fillColor="#00000000"
+        android:pathData="M54,32 A22,22 0 1,1 53.9,32" />
+    <!-- 1 -->
+    <path android:fillColor="#F4F4F5" android:pathData="M44,46 L49.5,42 L49.5,66 L45.5,66 L45.5,47.5 L44,48.5 Z" />
+    <!-- % -->
+    <path android:fillColor="#F4F4F5"
+        android:pathData="M54,46 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 M61,62 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0 M63.5,42 L66,43.5 L56.5,66 L54,64.5 Z" />
+</vector>

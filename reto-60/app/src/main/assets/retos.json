@@ -1,0 +1,717 @@
+[
+  {
+    "n": 1, "fase": "Despertar", "titulo": "Escribe la visión",
+    "ref": "Habacuc 2:2",
+    "versiculo": "Y Jehová me respondió, y dijo: Escribe la visión, y declárala en tablas, para que corra el que leyere en ella.",
+    "leccion": "Lo que no se escribe se olvida en tres días. Hoy no cambias nada todavía: hoy miras de frente quién eres y decides quién quieres ser. El día 60 vas a volver a leer esto.",
+    "reto": "Responde con total honestidad las tres preguntas de abajo. Nadie más las va a leer.",
+    "prueba": "Escribir tus tres respuestas completas. Sin respuestas, no hay reto cumplido.",
+    "pasos": [
+      { "t": "write", "label": "¿Qué hábitos o microhábitos te están robando la vida? Nombra al menos tres, con detalles (cuándo, dónde, cuánto).", "min": 80 },
+      { "t": "write", "label": "¿Qué quieres construir en tu fe y en tu disciplina en estos 60 días?", "min": 80 },
+      { "t": "write", "label": "Describe a la persona que quieres ver el día 60: cómo despierta, cómo ora, cómo trabaja, cómo trata a sus padres.", "min": 120 }
+    ]
+  },
+  {
+    "n": 2, "fase": "Despertar", "titulo": "Muy de mañana",
+    "ref": "Marcos 1:35",
+    "versiculo": "Levantándose muy de mañana, siendo aún muy oscuro, salió y se fue a un lugar desierto, y allí oraba.",
+    "leccion": "Jesús buscaba al Padre antes de que el día lo buscara a él. Lo primero que haces al despertar marca el tono de todo lo demás: si lo primero es el celular, el día ya es del celular.",
+    "reto": "Levántate al primer sonido de la alarma. Lo único que abres en el teléfono es esta tarjeta. Ora 3 minutos antes de cualquier otra cosa.",
+    "prueba": "Solo se puede marcar entre las 5:00 y las 5:20, y el temporizador de oración debe correr completo.",
+    "ancla": { "nombre": "Despertar con Dios", "detalle": "De pie al primer sonido. Nada de redes ni mensajes: primero oración." },
+    "pasos": [
+      { "t": "window", "label": "Estoy de pie", "from": "05:00", "to": "05:20" },
+      { "t": "timer", "label": "Ora 3 minutos. Pon el teléfono boca abajo.", "minutes": 3 },
+      { "t": "write", "label": "¿Qué le dijiste a Dios?", "min": 30 }
+    ]
+  },
+  {
+    "n": 3, "fase": "Despertar", "titulo": "Nuevas cada mañana",
+    "ref": "Lamentaciones 3:22-23",
+    "versiculo": "Por la misericordia de Jehová no hemos sido consumidos, porque nunca decayeron sus misericordias. Nuevas son cada mañana; grande es tu fidelidad.",
+    "leccion": "Tus malos hábitos han vuelto muchas veces después de un descuido. Eso no te descalifica. La misericordia de Dios no se gasta con tus caídas: cada mañana empieza limpia, y hoy también.",
+    "reto": "Memoriza este pasaje. Repítelo en voz alta al despertar y en tu descanso del trabajo.",
+    "prueba": "Escribirlo de memoria. La app lo compara palabra por palabra y el versículo se oculta mientras escribes.",
+    "pasos": [
+      { "t": "memory", "label": "Escribe Lamentaciones 3:22-23 de memoria" }
+    ]
+  },
+  {
+    "n": 4, "fase": "Despertar", "titulo": "Ve a la hormiga",
+    "ref": "Proverbios 6:6",
+    "versiculo": "Ve a la hormiga, oh perezoso, mira sus caminos, y sé sabio;",
+    "leccion": "La hormiga no tiene jefe que la vigile, y aun así trabaja. Disciplina es hacer lo correcto cuando nadie te lo pide ni te ve.",
+    "reto": "Lee despacio Proverbios 6:6-11 en tu Biblia. Después escribe en qué momento exacto de tu día eres el perezoso de ese pasaje.",
+    "prueba": "Responder una pregunta que solo sabes si leíste el pasaje, y escribir tu momento de pereza.",
+    "pasos": [
+      { "t": "quiz", "label": "Según el versículo 10, ¿cuáles son las tres cosas que se hacen “un poco”?", "a": ["sueno", "dormitar", "manos"] },
+      { "t": "write", "label": "¿En qué momento de tu día eres ese perezoso?", "min": 50 }
+    ]
+  },
+  {
+    "n": 5, "fase": "Despertar", "titulo": "Lo que te venga a la mano",
+    "ref": "Eclesiastés 9:10",
+    "versiculo": "Todo lo que te viniere a la mano para hacer, hazlo según tus fuerzas; porque en el Seol, adonde vas, no hay obra, ni trabajo, ni ciencia, ni sabiduría.",
+    "leccion": "La procrastinación se alimenta de cosas pequeñas acumuladas que pesan en la mente. Una regla simple: si algo toma menos de dos minutos, se hace en ese momento.",
+    "reto": "Después del trabajo, haz cinco pendientes de menos de dos minutos (guardar la ropa, contestar ese mensaje, sacar la basura…). Anota cada uno justo al terminarlo.",
+    "prueba": "Cinco registros hechos después de las 14:00, separados en el tiempo (al menos 20 minutos entre el primero y el último).",
+    "pasos": [
+      { "t": "log", "label": "¿Qué pendiente acabas de terminar?", "count": 5, "spanMin": 20, "after": "14:00", "min": 8 }
+    ]
+  },
+  {
+    "n": 6, "fase": "Despertar", "titulo": "Lámpara a mis pies",
+    "ref": "Salmo 119:105",
+    "versiculo": "Lámpara es a mis pies tu palabra, y lumbrera a mi camino.",
+    "leccion": "Proverbios tiene 31 capítulos, uno por cada día del mes. Leer el capítulo del día es una costumbre antigua y sencilla que llena tu mente de sabiduría práctica.",
+    "reto": "Lee el capítulo de Proverbios que corresponde a la fecha de hoy (si hoy es día 14, Proverbios 14). Desde hoy esto es parte de tu mañana.",
+    "prueba": "Indicar el capítulo correcto para la fecha de hoy y escribir el versículo que más te confrontó.",
+    "ancla": { "nombre": "Proverbios del día", "detalle": "Cada mañana, el capítulo de Proverbios que corresponde a la fecha." },
+    "pasos": [
+      { "t": "chapter", "label": "¿Qué capítulo de Proverbios leíste?" },
+      { "t": "write", "label": "Copia el versículo que más te confrontó (con su número) y qué vas a hacer con él.", "min": 60 }
+    ]
+  },
+  {
+    "n": 7, "fase": "Despertar", "titulo": "Ciudad sin muro",
+    "ref": "Proverbios 25:28",
+    "versiculo": "Como ciudad derribada y sin muro es el hombre cuyo espíritu no tiene rienda.",
+    "leccion": "Sin dominio propio, cualquier impulso entra y se queda. El primer muro no es la fuerza de voluntad: es saber exactamente cuándo y por qué caes.",
+    "reto": "Hoy obsérvate. Cada vez que te descubras en un mal hábito o microhábito, anota qué estabas haciendo, qué sentías y qué pasó justo antes.",
+    "prueba": "Al menos tres registros, repartidos en un mínimo de 6 horas del día.",
+    "pasos": [
+      { "t": "log", "label": "¿Qué hacías, qué sentías y qué pasó justo antes?", "count": 3, "spanMin": 360, "min": 25 }
+    ]
+  },
+  {
+    "n": 8, "fase": "Despertar", "titulo": "Quita la provisión",
+    "ref": "Romanos 13:14",
+    "versiculo": "sino vestíos del Señor Jesucristo, y no proveáis para los deseos de la carne.",
+    "leccion": "Todo hábito empieza con un detonante. Es más fácil quitar el detonante que pelear contra el impulso cada vez. No le dejes la puerta abierta a lo que quieres dejar.",
+    "reto": "Mira tu registro de ayer. Elige el detonante más frecuente y quítalo de tu camino físicamente: desinstala la app, saca el objeto del cuarto, cambia algo de lugar.",
+    "prueba": "Escribir qué quitaste y cómo. Al menos 8 horas después, contar qué hiciste en su lugar.",
+    "mostrar": 7,
+    "pasos": [
+      { "t": "write", "label": "¿Qué detonante quitaste y cómo lo hiciste?", "min": 40 },
+      { "t": "write", "label": "Han pasado 8 horas. ¿Lo extrañaste? ¿Qué hiciste en su lugar?", "min": 50, "gapH": 8 }
+    ]
+  },
+  {
+    "n": 9, "fase": "Despertar", "titulo": "Tu mañana se gana de noche",
+    "ref": "Salmo 127:2",
+    "versiculo": "Por demás es que os levantéis de madrugada, y vayáis tarde a reposar, y que comáis pan de dolores; pues que a su amado dará Dios el sueño.",
+    "leccion": "Levantarte a las 5:00 sin dormir es solo cansancio, no disciplina. Si te levantas a las 5:00 necesitas estar dormido antes de las 22:00. La batalla de la mañana se gana o se pierde la noche anterior.",
+    "reto": "A las 21:00 el celular se queda cargando lejos de tu cama. A las 21:30, luz apagada. Mañana, 5:00.",
+    "prueba": "Marcar entre 20:45 y 21:15 que el celular ya está lejos, y marcar mañana entre 5:00 y 5:20 que te levantaste.",
+    "ancla": { "nombre": "Noche protegida", "detalle": "21:00 celular lejos de la cama. 21:30 luz apagada." },
+    "multiDia": true,
+    "pasos": [
+      { "t": "window", "label": "El celular ya está cargando lejos de mi cama", "from": "20:45", "to": "21:15" },
+      { "t": "window", "label": "Me levanté al primer sonido", "from": "05:00", "to": "05:20", "gapH": 6 }
+    ]
+  },
+  {
+    "n": 10, "fase": "Despertar", "titulo": "El fruto llega después",
+    "ref": "Hebreos 12:11",
+    "versiculo": "Es verdad que ninguna disciplina al presente parece ser causa de gozo, sino de tristeza; pero después da fruto apacible de justicia a los que en ella han sido ejercitados.",
+    "leccion": "Los primeros días de disciplina no se sienten bien, y eso es normal. Hoy no agregas nada nuevo: revisas el camino.",
+    "reto": "Relee lo que escribiste el día 1. Evalúa con honestidad tus primeras anclas.",
+    "prueba": "Escribir tu evaluación y un solo ajuste concreto.",
+    "mostrar": 1,
+    "pasos": [
+      { "t": "write", "label": "¿Qué ancla te costó más y por qué?", "min": 50 },
+      { "t": "write", "label": "Un solo ajuste concreto para los próximos 10 días (qué, cuándo, cómo):", "min": 40 }
+    ]
+  },
+
+  {
+    "n": 11, "fase": "Dominio propio", "titulo": "El fruto del Espíritu",
+    "ref": "Gálatas 5:22-23",
+    "versiculo": "Mas el fruto del Espíritu es amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre, templanza; contra tales cosas no hay ley.",
+    "leccion": "La templanza (el dominio propio) está en la lista del fruto del Espíritu. No es solo apretar los dientes: es algo que crece cuando caminas con Dios y lo practicas.",
+    "reto": "Memoriza Gálatas 5:22-23. Cuando sientas un impulso hoy, repítelo.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe Gálatas 5:22-23 de memoria" } ]
+  },
+  {
+    "n": 12, "fase": "Dominio propio", "titulo": "No me dejaré dominar",
+    "ref": "1 Corintios 6:12",
+    "versiculo": "Todas las cosas me son lícitas, mas no todas convienen; todas las cosas me son lícitas, mas yo no me dejaré dominar de ninguna.",
+    "leccion": "Algo puede no ser pecado y aun así dominarte. La prueba es sencilla: ¿puedes dejarlo un día entero?",
+    "reto": "Elige el microhábito número uno que escribiste el día 1. Hoy no lo haces ni una vez, y defines desde la mañana qué harás cuando llegue el impulso.",
+    "prueba": "Por la mañana escribes tu compromiso; cada vez que resistes, lo registras; después de las 20:00 cuentas cómo te fue.",
+    "mostrar": 1,
+    "pasos": [
+      { "t": "write", "label": "¿Qué dejas hoy y qué harás en su lugar cuando venga el impulso?", "min": 40, "before": "12:00" },
+      { "t": "log", "label": "Resistí. ¿Qué hice en su lugar?", "count": 1, "min": 10 },
+      { "t": "write", "label": "¿Lo lograste todo el día? Sé honesto.", "min": 40, "after": "20:00" }
+    ]
+  },
+  {
+    "n": 13, "fase": "Dominio propio", "titulo": "Decide antes",
+    "ref": "Mateo 26:41",
+    "versiculo": "Velad y orad, para que no entréis en tentación; el espíritu a la verdad está dispuesto, pero la carne es débil.",
+    "leccion": "Cuando llega la tentación ya es tarde para decidir. Velar es decidir antes. Los planes “cuando pase esto, entonces haré aquello” funcionan mucho mejor que las buenas intenciones.",
+    "reto": "Escribe tres planes “cuando… entonces…” para tus tres momentos más débiles del día. Después ora 3 minutos por cada uno.",
+    "prueba": "Tres planes que incluyan “cuando” y “entonces”, y el temporizador de oración completo.",
+    "pasos": [
+      { "t": "write", "label": "Plan 1 (Cuando… entonces…)", "min": 25, "must": ["cuando", "entonces"] },
+      { "t": "write", "label": "Plan 2 (Cuando… entonces…)", "min": 25, "must": ["cuando", "entonces"] },
+      { "t": "write", "label": "Plan 3 (Cuando… entonces…)", "min": 25, "must": ["cuando", "entonces"] },
+      { "t": "timer", "label": "Ora por cada plan", "minutes": 9 }
+    ]
+  },
+  {
+    "n": 14, "fase": "Dominio propio", "titulo": "Dios da la salida",
+    "ref": "1 Corintios 10:13",
+    "versiculo": "No os ha sobrevenido ninguna tentación que no sea humana; pero fiel es Dios, que no os dejará ser tentados más de lo que podéis resistir, sino que dará también juntamente con la tentación la salida, para que podáis soportar.",
+    "leccion": "Lo que te pasa no es único ni imposible. Junto con la tentación viene una salida; tus planes de ayer son esa salida preparada de antemano.",
+    "reto": "Vive el día usando tus tres planes. En la noche, cuenta cuál usaste.",
+    "prueba": "Después de las 19:00, escribir cuál plan usaste, a qué hora y qué pasó.",
+    "mostrar": 13,
+    "pasos": [
+      { "t": "write", "label": "¿Qué plan usaste, a qué hora y qué pasó?", "min": 60, "after": "19:00" }
+    ]
+  },
+  {
+    "n": 15, "fase": "Dominio propio", "titulo": "Cuenta tus días",
+    "ref": "Salmo 90:12",
+    "versiculo": "Enséñanos de tal modo a contar nuestros días, que traigamos al corazón sabiduría.",
+    "leccion": "No puedes administrar lo que no mides. Tu teléfono ya mide cuánto tiempo le das a cada cosa: hoy lo vas a mirar de frente.",
+    "reto": "Abre Ajustes → Bienestar digital (o “Tiempo de pantalla”). Anota tus tres apps con más tiempo y cuántos minutos. Pon un temporizador diario a la peor.",
+    "prueba": "Escribir las tres apps con sus minutos y qué límite pusiste.",
+    "pasos": [
+      { "t": "write", "label": "Tus 3 apps con más tiempo y los minutos de cada una", "min": 20, "digits": true },
+      { "t": "write", "label": "¿A qué app le pusiste límite y de cuánto?", "min": 10, "digits": true }
+    ]
+  },
+  {
+    "n": 16, "fase": "Dominio propio", "titulo": "Renueva tu mente",
+    "ref": "Romanos 12:2",
+    "versiculo": "No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento, para que comprobéis cuál sea la buena voluntad de Dios, agradable y perfecta.",
+    "leccion": "Lo que consumes moldea lo que piensas, y lo que piensas moldea lo que haces. Un día sin el ruido de siempre te deja ver cuánto espacio ocupa.",
+    "reto": "Hoy cero redes sociales y videos cortos, de que despiertas hasta las 21:00. Desde la mañana decide en qué usarás ese tiempo.",
+    "prueba": "Compromiso por la mañana. Después de las 21:00, escribir los minutos que marca Bienestar digital para tus redes hoy (máximo 5).",
+    "pasos": [
+      { "t": "write", "label": "¿En qué usarás el tiempo que hoy no darás a las redes?", "min": 30, "before": "12:00" },
+      { "t": "number", "label": "Minutos de redes hoy según Bienestar digital", "max": 5, "after": "21:00" },
+      { "t": "write", "label": "¿Qué notaste en ti sin ese ruido?", "min": 40, "after": "21:00" }
+    ]
+  },
+  {
+    "n": 17, "fase": "Dominio propio", "titulo": "En esto pensad",
+    "ref": "Filipenses 4:8",
+    "versiculo": "Por lo demás, hermanos, todo lo que es verdadero, todo lo honesto, todo lo justo, todo lo puro, todo lo amable, todo lo que es de buen nombre; si hay virtud alguna, si algo digno de alabanza, en esto pensad.",
+    "leccion": "No basta con dejar algo: necesitas saber qué hacer en su lugar. Cuando tienes una lista lista, el tiempo libre deja de ser una trampa.",
+    "reto": "Haz una lista de cinco cosas buenas para tus tardes libres (leer, entrenar, aprender algo, ayudar en casa…). Haz una de ellas hoy durante 20 minutos.",
+    "prueba": "La lista de cinco y el temporizador de 20 minutos completo.",
+    "pasos": [
+      { "t": "write", "label": "Tus cinco alternativas (una por línea)", "min": 50, "lines": 5 },
+      { "t": "timer", "label": "Haz una de ellas ahora", "minutes": 20 },
+      { "t": "write", "label": "¿Cuál hiciste?", "min": 15 }
+    ]
+  },
+  {
+    "n": 18, "fase": "Dominio propio", "titulo": "La casa desocupada",
+    "ref": "Mateo 12:43-44",
+    "versiculo": "Cuando el espíritu inmundo sale del hombre, anda por lugares secos, buscando reposo, y no lo halla. Entonces dice: Volveré a mi casa de donde salí; y cuando llega, la halla desocupada, barrida y adornada.",
+    "leccion": "Jesús habla aquí de algo más serio que un hábito, pero el principio se aplica: lo que sacas y no reemplazas encuentra la casa vacía y regresa. Por eso tus hábitos vuelven después de un descuido.",
+    "reto": "Para tu microhábito número uno, define un reemplazo fijo para el mismo detonante. Practícalo hoy tres veces.",
+    "prueba": "Tres registros “detonante → lo que hice en su lugar”, repartidos en al menos 4 horas.",
+    "pasos": [
+      { "t": "write", "label": "Mi detonante es… y mi reemplazo fijo será…", "min": 30 },
+      { "t": "log", "label": "Detonante → lo que hice en su lugar", "count": 3, "spanMin": 240, "min": 15 }
+    ]
+  },
+  {
+    "n": 19, "fase": "Dominio propio", "titulo": "Golpeo mi cuerpo",
+    "ref": "1 Corintios 9:27",
+    "versiculo": "sino que golpeo mi cuerpo, y lo pongo en servidumbre, no sea que habiendo sido heraldo para otros, yo mismo venga a ser eliminado.",
+    "leccion": "Pablo entrenaba su cuerpo para que no lo gobernara. Cuando tu cuerpo aprende a obedecer en lo físico, la disciplina se contagia a todo lo demás.",
+    "reto": "Después del trabajo, 20 minutos de ejercicio intenso para ti: correr, caminar rápido, sentadillas, lagartijas. Sin pausas largas.",
+    "prueba": "Temporizador de 20 minutos completo y lo que hiciste con números (kilómetros, repeticiones).",
+    "pasos": [
+      { "t": "timer", "label": "Entrena", "minutes": 20, "after": "14:00" },
+      { "t": "write", "label": "¿Qué hiciste? (con números)", "min": 15, "digits": true }
+    ]
+  },
+  {
+    "n": 20, "fase": "Dominio propio", "titulo": "Siete veces cae",
+    "ref": "Proverbios 24:16",
+    "versiculo": "Porque siete veces cae el justo, y vuelve a levantarse; mas los impíos caerán en el mal.",
+    "leccion": "El justo no es el que nunca cae, es el que se levanta. Una regla práctica: fallar una vez es un accidente; fallar dos veces seguidas es el inicio de un hábito nuevo. Nunca dos veces seguidas.",
+    "reto": "Memoriza Proverbios 24:16 y escribe tu protocolo de recaída: qué harás exactamente en las 24 horas siguientes a fallar.",
+    "prueba": "El versículo de memoria y tu protocolo por escrito.",
+    "pasos": [
+      { "t": "memory", "label": "Escribe Proverbios 24:16 de memoria" },
+      { "t": "write", "label": "Mi protocolo cuando falle:", "min": 60 }
+    ]
+  },
+
+  {
+    "n": 21, "fase": "Contra la pereza", "titulo": "Desear no es hacer",
+    "ref": "Proverbios 13:4",
+    "versiculo": "El alma del perezoso desea, y nada alcanza; mas el alma de los diligentes será prosperada.",
+    "leccion": "El perezoso tiene muchos deseos; lo que le falta es el primer paso. La tarea que más pesa casi siempre se vuelve ligera en cuanto empiezas.",
+    "reto": "Por la mañana elige la tarea importante que más has pospuesto y su primer paso físico. Por la tarde trabaja en ella 25 minutos sin interrupciones.",
+    "prueba": "Compromiso antes de las 12:00, temporizador de 25 minutos después de las 14:00 y lo que avanzaste.",
+    "pasos": [
+      { "t": "write", "label": "La tarea que más he pospuesto y su primer paso físico:", "min": 30, "before": "12:00" },
+      { "t": "timer", "label": "Trabaja en ella. Celular en otro cuarto.", "minutes": 25, "after": "14:00" },
+      { "t": "write", "label": "¿Qué avanzaste concretamente?", "min": 40 }
+    ]
+  },
+  {
+    "n": 22, "fase": "Contra la pereza", "titulo": "Aprovechando bien el tiempo",
+    "ref": "Efesios 5:15-16",
+    "versiculo": "Mirad, pues, con diligencia cómo andéis, no como necios sino como sabios, aprovechando bien el tiempo, porque los días son malos.",
+    "leccion": "Sales del trabajo a las 2:00 y esa tarde es tu mayor tesoro. Lo que hagas en la primera hora suele decidir el resto de la tarde.",
+    "reto": "Desde hoy, al llegar a casa, lo primero son 25 minutos en lo más importante, antes de abrir cualquier red.",
+    "prueba": "El temporizador debe iniciarse entre las 14:00 y las 17:00, y escribir qué hiciste.",
+    "ancla": { "nombre": "Lo difícil primero", "detalle": "Al llegar del trabajo: 25 minutos en lo más importante antes de cualquier red." },
+    "pasos": [
+      { "t": "timer", "label": "Lo más importante, primero", "minutes": 25, "from": "14:00", "to": "17:00" },
+      { "t": "write", "label": "¿Qué hiciste en esos 25 minutos?", "min": 30 }
+    ]
+  },
+  {
+    "n": 23, "fase": "Contra la pereza", "titulo": "Saber y no hacer",
+    "ref": "Santiago 4:17",
+    "versiculo": "y al que sabe hacer lo bueno, y no lo hace, le es pecado.",
+    "leccion": "Todos tenemos algo que sabemos que debemos hacer y llevamos semanas evitando. Cada día que pasa pesa más.",
+    "reto": "Haz hoy esa cosa: una llamada, una disculpa, un trámite, ordenar algo, terminar algo.",
+    "prueba": "Compromiso por la mañana; al menos 2 horas después, contar qué pasó exactamente.",
+    "pasos": [
+      { "t": "write", "label": "Lo que sé que debo hacer y he evitado:", "min": 25, "before": "12:00" },
+      { "t": "write", "label": "Lo hice. ¿Qué pasó exactamente?", "min": 60, "gapH": 2 }
+    ]
+  },
+  {
+    "n": 24, "fase": "Contra la pereza", "titulo": "El mañana no es tuyo",
+    "ref": "Proverbios 27:1",
+    "versiculo": "No te jactes del día de mañana; porque no sabes qué dará de sí el día.",
+    "leccion": "“Mañana lo hago” es la frase favorita de la procrastinación. El mañana no está garantizado; lo que sí tienes es hoy.",
+    "reto": "Escribe todo lo que esta semana dijiste “mañana lo hago”. Ponle día y hora a cada uno. Haz uno hoy.",
+    "prueba": "La lista (al menos tres) con día y hora, y el que hiciste hoy.",
+    "pasos": [
+      { "t": "write", "label": "Lo que pospuse, con día y hora para cada uno (uno por línea)", "min": 45, "lines": 3, "digits": true },
+      { "t": "write", "label": "¿Cuál hiciste hoy y cómo quedó?", "min": 30, "gapH": 1 }
+    ]
+  },
+  {
+    "n": 25, "fase": "Contra la pereza", "titulo": "Calcula antes de construir",
+    "ref": "Lucas 14:28",
+    "versiculo": "Porque ¿quién de vosotros, queriendo edificar una torre, no se sienta primero y calcula los gastos, a ver si tiene lo que necesita para acabarla?",
+    "leccion": "Un día sin plan se lo come lo urgente y lo fácil. Cinco minutos de planear en la noche te ahorran horas de improvisar.",
+    "reto": "Esta noche escribe el plan de mañana: tres prioridades con hora. Mañana en la noche evalúa.",
+    "prueba": "El plan escrito entre 19:00 y 21:15, y mañana después de las 19:00 cuántas cumpliste.",
+    "multiDia": true,
+    "pasos": [
+      { "t": "write", "label": "Mis 3 prioridades de mañana, con hora", "min": 40, "lines": 3, "digits": true, "from": "19:00", "to": "21:15" },
+      { "t": "number", "label": "¿Cuántas de las 3 cumpliste?", "max": 3, "after": "19:00", "gapH": 18 },
+      { "t": "write", "label": "¿Qué te ayudó y qué te estorbó?", "min": 40 }
+    ]
+  },
+  {
+    "n": 26, "fase": "Contra la pereza", "titulo": "Como para el Señor",
+    "ref": "Colosenses 3:23",
+    "versiculo": "Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres;",
+    "leccion": "Tus ocho horas de trabajo también son terreno de fe. La diferencia entre cumplir y hacerlo de corazón casi nunca la ve tu jefe; la ves tú, y la ve Dios.",
+    "reto": "Hoy en el trabajo haz algo mejor de lo necesario, sin que nadie lo note y sin contárselo a nadie.",
+    "prueba": "Después de las 14:00, describir qué hiciste mejor y nadie vio.",
+    "pasos": [
+      { "t": "write", "label": "¿Qué hiciste mejor de lo necesario que nadie vio?", "min": 60, "after": "14:00" }
+    ]
+  },
+  {
+    "n": 27, "fase": "Contra la pereza", "titulo": "Solícito en su trabajo",
+    "ref": "Proverbios 22:29",
+    "versiculo": "¿Has visto hombre solícito en su trabajo? Delante de los reyes estará; no estará delante de los de baja condición.",
+    "leccion": "Tienes 18 años y tus tardes libres. La habilidad que construyas ahora, de poquito en poquito, es la que te va a abrir puertas.",
+    "reto": "Treinta minutos de estudio de algo que te haga mejor en tu trabajo o en tu futuro (un oficio, un idioma, una habilidad).",
+    "prueba": "Temporizador de 30 minutos y tres cosas concretas que aprendiste.",
+    "pasos": [
+      { "t": "write", "label": "¿Qué vas a estudiar?", "min": 10 },
+      { "t": "timer", "label": "Estudia", "minutes": 30 },
+      { "t": "write", "label": "Tres cosas concretas que aprendiste", "min": 80, "lines": 3 }
+    ]
+  },
+  {
+    "n": 28, "fase": "Contra la pereza", "titulo": "La mano diligente",
+    "ref": "Proverbios 21:5",
+    "versiculo": "Los pensamientos del diligente ciertamente tienden a la abundancia; mas todo el que se apresura alocadamente, de cierto va a la pobreza.",
+    "leccion": "La disciplina también se ve en el dinero. No hace falta ganar mucho para empezar a administrar bien; hace falta saber a dónde se va.",
+    "reto": "Escribe cuánto ganas por pago y en qué se fue tu dinero esta semana (aproximado). Define una regla fija: qué porcentaje apartarás cada vez que cobres.",
+    "prueba": "Escribir tus números y tu regla.",
+    "pasos": [
+      { "t": "write", "label": "Lo que gano y a dónde se fue esta semana (con cantidades)", "min": 40, "digits": true },
+      { "t": "write", "label": "Mi regla: cada vez que cobre, aparto…", "min": 15, "digits": true }
+    ]
+  },
+  {
+    "n": 29, "fase": "Contra la pereza", "titulo": "No tengas en poco tu juventud",
+    "ref": "1 Timoteo 4:12",
+    "versiculo": "Ninguno tenga en poco tu juventud, sino sé ejemplo de los creyentes en palabra, conducta, amor, espíritu, fe y pureza.",
+    "leccion": "Tener 18 años no es excusa ni desventaja. Pablo le dice a un joven que puede ser ejemplo ya, no cuando sea mayor.",
+    "reto": "Memoriza 1 Timoteo 4:12.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe 1 Timoteo 4:12 de memoria" } ]
+  },
+  {
+    "n": 30, "fase": "Contra la pereza", "titulo": "Escudriña tus caminos",
+    "ref": "Lamentaciones 3:40",
+    "versiculo": "Escudriñemos nuestros caminos, y busquemos, y volvámonos a Jehová;",
+    "leccion": "Llevas la mitad del camino. Hoy no agregas nada: revisas.",
+    "reto": "Revisa tus anclas y tu visión del día 1. ¿Qué ya es natural? ¿Qué sigue costando?",
+    "prueba": "Escribir tu evaluación honesta de la mitad del camino.",
+    "mostrar": 1,
+    "pasos": [
+      { "t": "write", "label": "¿Qué ya hago sin pensarlo?", "min": 40 },
+      { "t": "write", "label": "¿Qué sigue costando y qué vas a cambiar?", "min": 50 }
+    ]
+  },
+
+  {
+    "n": 31, "fase": "Carácter en casa", "titulo": "Honra",
+    "ref": "Éxodo 20:12",
+    "versiculo": "Honra a tu padre y a tu madre, para que tus días se alarguen en la tierra que Jehová tu Dios te da.",
+    "leccion": "Vives con tus padres: tu casa es el primer lugar donde se prueba tu carácter. Lo que eres en casa es lo que eres de verdad.",
+    "reto": "Pregúntale a tu mamá o a tu papá: “¿En qué te puedo ayudar hoy?”, y hazlo sin quejarte.",
+    "prueba": "Testigo: pídele a tu mamá o papá que escriba aquí, con sus palabras, lo que hiciste.",
+    "pasos": [
+      { "t": "write", "label": "Testigo: (lo escribe tu mamá o papá)", "min": 20, "witness": true }
+    ]
+  },
+  {
+    "n": 32, "fase": "Carácter en casa", "titulo": "Fiel en lo muy poco",
+    "ref": "Lucas 16:10",
+    "versiculo": "El que es fiel en lo muy poco, también en lo más es fiel; y el que en lo muy poco es injusto, también en lo más es injusto.",
+    "leccion": "Esta app no puede comprobar todo: muchas pruebas dependen de tu honestidad. Eso también es parte del entrenamiento. La integridad se construye en lo pequeño, cuando nadie ve.",
+    "reto": "Hoy ni una mentira: ni “piadosa”, ni exageración, ni excusa inventada. Si se te escapa una, corrígela en ese momento.",
+    "prueba": "Después de las 20:00, escribir en qué momento sentiste la tentación de mentir o exagerar y qué hiciste.",
+    "pasos": [
+      { "t": "write", "label": "¿Cuándo sentiste la tentación de mentir o exagerar? ¿Qué hiciste?", "min": 60, "after": "20:00" }
+    ]
+  },
+  {
+    "n": 33, "fase": "Carácter en casa", "titulo": "El primer mandamiento con promesa",
+    "ref": "Efesios 6:1-2",
+    "versiculo": "Hijos, obedeced en el Señor a vuestros padres, porque esto es justo. Honra a tu padre y a tu madre, que es el primer mandamiento con promesa;",
+    "leccion": "Honrar no es solo obedecer cuando te piden algo. Es adelantarte. Una cosa al día, sin que te la pidan, cambia el ambiente de una casa.",
+    "reto": "Desde hoy, cada día haz algo en casa sin que te lo pidan y sin anunciarlo.",
+    "prueba": "Después de las 14:00, escribir qué hiciste y si alguien lo notó.",
+    "ancla": { "nombre": "Una sin que me la pidan", "detalle": "Cada día, una cosa en casa sin que te la pidan y sin anunciarla." },
+    "pasos": [
+      { "t": "write", "label": "¿Qué hiciste sin que te lo pidieran? ¿Alguien lo notó?", "min": 40, "after": "14:00" }
+    ]
+  },
+  {
+    "n": 34, "fase": "Carácter en casa", "titulo": "Sí, sí; no, no",
+    "ref": "Mateo 5:37",
+    "versiculo": "Pero sea vuestro hablar: Sí, sí; no, no; porque lo que es más de esto, de mal procede.",
+    "leccion": "Cada promesa incumplida le enseña a tu mente que tu palabra no vale. También las que te haces a ti.",
+    "reto": "Cumple hoy una promesa que dejaste pendiente (a tus padres, a un amigo o a ti).",
+    "prueba": "Compromiso por la mañana; al menos 3 horas después, contar cómo la cumpliste.",
+    "pasos": [
+      { "t": "write", "label": "La promesa pendiente que voy a cumplir hoy:", "min": 25, "before": "12:00" },
+      { "t": "write", "label": "¿Cómo la cumpliste?", "min": 50, "gapH": 3 }
+    ]
+  },
+  {
+    "n": 35, "fase": "Carácter en casa", "titulo": "Palabras que edifican",
+    "ref": "Efesios 4:29",
+    "versiculo": "Ninguna palabra corrompida salga de vuestra boca, sino la que sea buena para la necesaria edificación, a fin de dar gracia a los oyentes.",
+    "leccion": "Tu boca también es un hábito. Las groserías y las críticas salen solas porque se practicaron mucho.",
+    "reto": "Hoy cero groserías y cero críticas de otras personas. Cada vez que se te escape una, regístrala.",
+    "prueba": "Después de las 20:00, escribir cuántas se te escaparon y cuándo fue la más difícil.",
+    "pasos": [
+      { "t": "number", "label": "¿Cuántas veces se te escapó?", "max": 99, "after": "20:00" },
+      { "t": "write", "label": "¿En qué momento fue más difícil y qué dijiste en su lugar?", "min": 50, "after": "20:00" }
+    ]
+  },
+  {
+    "n": 36, "fase": "Carácter en casa", "titulo": "Sin murmuraciones",
+    "ref": "Filipenses 2:14",
+    "versiculo": "Haced todo sin murmuraciones y contiendas,",
+    "leccion": "Quejarse es la forma más cómoda de no hacer nada. Cambiar una queja por gratitud entrena tu mente a ver lo que sí tienes.",
+    "reto": "Un día sin quejarte en voz alta. Cada vez que te venga una queja, conviértela en gratitud y anótala.",
+    "prueba": "Al menos tres agradecimientos registrados, repartidos en 6 horas.",
+    "pasos": [
+      { "t": "log", "label": "Iba a quejarme de… y en su lugar agradezco…", "count": 3, "spanMin": 360, "min": 20 }
+    ]
+  },
+  {
+    "n": 37, "fase": "Carácter en casa", "titulo": "Pronto para oír",
+    "ref": "Santiago 1:19",
+    "versiculo": "Por esto, mis amados hermanos, todo hombre sea pronto para oír, tardo para hablar, tardo para airarse;",
+    "leccion": "Vives con tus padres pero quizá sabes poco de su historia. Escuchar de verdad es una forma de honrar.",
+    "reto": "Ten una conversación de al menos 15 minutos con tu mamá o tu papá donde solo preguntas y escuchas: cómo era a tu edad, qué le costó, qué aprendió.",
+    "prueba": "Escribir tres cosas que te contó y que no sabías.",
+    "pasos": [
+      { "t": "write", "label": "Tres cosas que no sabías", "min": 90, "lines": 3 }
+    ]
+  },
+  {
+    "n": 38, "fase": "Carácter en casa", "titulo": "La blanda respuesta",
+    "ref": "Proverbios 15:1",
+    "versiculo": "La blanda respuesta quita la ira; mas la palabra áspera hace subir el furor.",
+    "leccion": "Pedir perdón de forma concreta (no un “perdón por todo”) es de las cosas más difíciles y que más cambian una relación.",
+    "reto": "Pide perdón a alguien de tu casa por algo concreto: un tono, una respuesta, una actitud.",
+    "prueba": "Escribir qué dijiste exactamente y qué te respondió.",
+    "pasos": [
+      { "t": "write", "label": "¿Qué dijiste exactamente y qué te respondió?", "min": 60 }
+    ]
+  },
+  {
+    "n": 39, "fase": "Carácter en casa", "titulo": "Como Dios te perdonó",
+    "ref": "Efesios 4:32",
+    "versiculo": "Antes sed benignos unos con otros, misericordiosos, perdonándoos unos a otros, como Dios también os perdonó a vosotros en Cristo.",
+    "leccion": "El rencor ocupa espacio y energía que necesitas para crecer. Perdonar no es decir que no pasó nada; es soltar la deuda.",
+    "reto": "Piensa en alguien a quien le guardas algo. Ora 5 minutos por esa persona, pidiendo bien para ella.",
+    "prueba": "Temporizador de 5 minutos y escribir qué decidiste soltar (puedes usar solo una inicial).",
+    "pasos": [
+      { "t": "timer", "label": "Ora por esa persona", "minutes": 5 },
+      { "t": "write", "label": "¿Qué decidiste soltar?", "min": 40, "noSave": true }
+    ]
+  },
+  {
+    "n": 40, "fase": "Carácter en casa", "titulo": "Examíname",
+    "ref": "Salmo 139:23-24",
+    "versiculo": "Examíname, oh Dios, y conoce mi corazón; pruébame y conoce mis pensamientos; y ve si hay en mí camino de perversidad, y guíame en el camino eterno.",
+    "leccion": "Cuarenta días, como el libro de la película. Pero tú vas por 60. Pídele a Dios que te muestre lo que tú no ves.",
+    "reto": "Memoriza Salmo 139:23-24 y conviértelo en tu oración de hoy.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe Salmo 139:23-24 de memoria" } ]
+  },
+
+  {
+    "n": 41, "fase": "Raíces profundas", "titulo": "En lo secreto",
+    "ref": "Mateo 6:6",
+    "versiculo": "Mas tú, cuando ores, entra en tu aposento, y cerrada la puerta, ora a tu Padre que está en secreto; y tu Padre que ve en lo secreto te recompensará en público.",
+    "leccion": "Tu oración de la mañana ya es un hábito. Hoy la llevas más profundo: más tiempo, sin prisa y sin testigos.",
+    "reto": "Diez minutos de oración a solas, con la puerta cerrada. Inicia el temporizador y deja el teléfono lejos.",
+    "prueba": "Temporizador de 10 minutos completo y escribir lo que hablaste con Dios.",
+    "pasos": [
+      { "t": "timer", "label": "Ora a solas", "minutes": 10 },
+      { "t": "write", "label": "¿De qué hablaste con Dios?", "min": 50 }
+    ]
+  },
+  {
+    "n": 42, "fase": "Raíces profundas", "titulo": "Guardado en el corazón",
+    "ref": "Salmo 119:11",
+    "versiculo": "En mi corazón he guardado tus dichos, para no pecar contra ti.",
+    "leccion": "Los versículos que ya memorizaste son armas que llevas contigo aunque no tengas el teléfono. Este explica por qué.",
+    "reto": "Memoriza Salmo 119:11 y repasa los que llevas.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe Salmo 119:11 de memoria" } ]
+  },
+  {
+    "n": 43, "fase": "Raíces profundas", "titulo": "Hacedores",
+    "ref": "Santiago 1:22",
+    "versiculo": "Pero sed hacedores de la palabra, y no tan solamente oidores, engañándoos a vosotros mismos.",
+    "leccion": "Leer sin hacer es engañarse a uno mismo, dice Santiago. La lectura vale cuando se convierte en una acción concreta ese mismo día.",
+    "reto": "Lee Santiago capítulo 1 completo. Elige una cosa que vas a hacer hoy por lo que leíste.",
+    "prueba": "Responder una pregunta del capítulo, comprometerte por la mañana y contar en la noche si lo hiciste.",
+    "pasos": [
+      { "t": "quiz", "label": "Según el versículo 5, ¿qué debe hacer el que tiene falta de sabiduría?", "a": ["pid", "dios"] },
+      { "t": "write", "label": "Hoy voy a hacer…", "min": 25 },
+      { "t": "write", "label": "¿Lo hiciste? ¿Cómo?", "min": 40, "after": "19:00" }
+    ]
+  },
+  {
+    "n": 44, "fase": "Raíces profundas", "titulo": "Cuando ayunes",
+    "ref": "Mateo 6:17-18",
+    "versiculo": "Pero tú, cuando ayunes, unge tu cabeza y lava tu rostro, para no mostrar a los hombres que ayunas, sino a tu Padre que está en secreto; y tu Padre que ve en lo secreto te recompensará en público.",
+    "leccion": "El ayuno entrena a tu cuerpo a no mandar sobre ti, y convierte el hambre en recordatorio para orar. Es un ayuno corto: tienes buena salud, pero si te mareas o te sientes mal, come. No es un castigo.",
+    "reto": "Desde que despiertas hasta las 14:00, solo agua. Cada vez que sientas hambre, haz una oración corta y anótala. No se lo anuncies a nadie.",
+    "prueba": "Al menos dos oraciones registradas durante el ayuno y, después de las 14:00, cómo te fue.",
+    "pasos": [
+      { "t": "log", "label": "Sentí hambre y oré:", "count": 2, "spanMin": 60, "before": "14:00", "min": 10 },
+      { "t": "write", "label": "¿Qué aprendiste de ti en este ayuno?", "min": 40, "after": "14:00" }
+    ]
+  },
+  {
+    "n": 45, "fase": "Raíces profundas", "titulo": "Mejor dos que uno",
+    "ref": "Eclesiastés 4:9-10",
+    "versiculo": "Mejores son dos que uno; porque tienen mejor paga de su trabajo. Porque si cayeren, el uno levantará a su compañero; pero ¡ay del solo! que cuando cayere, no habrá segundo que lo levante.",
+    "leccion": "Los hábitos que se luchan en secreto vuelven más fácil. Cuando alguien de confianza sabe y te pregunta, cambia todo.",
+    "reto": "Cuéntale a una persona de confianza y madura en la fe (papá, mamá, pastor, amigo) lo que estás haciendo y el hábito con el que más luchas. Pídele que te pregunte por él cada semana.",
+    "prueba": "Escribir a quién se lo dijiste y qué te respondió.",
+    "pasos": [
+      { "t": "write", "label": "¿A quién se lo contaste y qué te respondió?", "min": 60 }
+    ]
+  },
+  {
+    "n": 46, "fase": "Raíces profundas", "titulo": "Hierro con hierro",
+    "ref": "Proverbios 13:20",
+    "versiculo": "El que anda con sabios, sabio será; mas el que se junta con necios será quebrantado.",
+    "leccion": "Te pareces a aquello con lo que pasas tiempo, y eso incluye a quienes ves en tu teléfono.",
+    "reto": "Escribe las cinco personas o cuentas con las que más tiempo pasas. Junto a cada una, ¿te acerca o te aleja de quien quieres ser? Deja de seguir al menos una que te jala hacia atrás.",
+    "prueba": "Tu lista de cinco con su evaluación y cuál dejaste de seguir.",
+    "pasos": [
+      { "t": "write", "label": "Cinco personas o cuentas: ¿me acerca o me aleja?", "min": 60, "lines": 5 },
+      { "t": "write", "label": "¿A quién dejaste de seguir?", "min": 5 }
+    ]
+  },
+  {
+    "n": 47, "fase": "Raíces profundas", "titulo": "El que confiesa",
+    "ref": "Proverbios 28:13",
+    "versiculo": "El que encubre sus pecados no prosperará; mas el que los confiesa y se aparta alcanzará misericordia.",
+    "leccion": "Lo que se esconde se pudre por dentro. Confesar a Dios con detalle, sin excusas, es empezar a apartarse. “Si confesamos nuestros pecados, él es fiel y justo para perdonar nuestros pecados, y limpiarnos de toda maldad” (1 Juan 1:9).",
+    "reto": "Escríbele a Dios una confesión honesta y concreta. Después, ora.",
+    "prueba": "Escribir tu confesión. No se guarda: se borra en cuanto la entregas.",
+    "pasos": [
+      { "t": "write", "label": "Tu confesión (no se guardará)", "min": 100, "noSave": true },
+      { "t": "timer", "label": "Ora", "minutes": 3 }
+    ]
+  },
+  {
+    "n": 48, "fase": "Raíces profundas", "titulo": "Un corazón limpio",
+    "ref": "Salmo 51:10",
+    "versiculo": "Crea en mí, oh Dios, un corazón limpio, y renueva un espíritu recto dentro de mí.",
+    "leccion": "David escribió este salmo después de su peor caída. No pidió solo perdón: pidió un corazón nuevo.",
+    "reto": "Memoriza Salmo 51:10.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe Salmo 51:10 de memoria" } ]
+  },
+  {
+    "n": 49, "fase": "Raíces profundas", "titulo": "Vino para servir",
+    "ref": "Marcos 10:45",
+    "versiculo": "Porque el Hijo del Hombre no vino para ser servido, sino para servir, y para dar su vida en rescate por muchos.",
+    "leccion": "La disciplina centrada solo en ti se vuelve orgullo. La fe la saca hacia afuera.",
+    "reto": "Haz algo por alguien fuera de tu casa que no pueda devolverte el favor. Sin gastar dinero: tu tiempo, tu ayuda, tu atención.",
+    "prueba": "Escribir qué hiciste, por quién (puede ser una inicial) y cómo reaccionó.",
+    "pasos": [
+      { "t": "write", "label": "¿Qué hiciste, por quién y cómo reaccionó?", "min": 60 }
+    ]
+  },
+  {
+    "n": 50, "fase": "Raíces profundas", "titulo": "Fíate de todo corazón",
+    "ref": "Proverbios 3:5-6",
+    "versiculo": "Fíate de Jehová de todo tu corazón, y no te apoyes en tu propia prudencia. Reconócelo en todos tus caminos, y él enderezará tus veredas.",
+    "leccion": "Cincuenta retos. Mucho de lo que cambió no fue por tu fuerza. Reconocerlo te protege del orgullo y de rendirte cuando la fuerza falle.",
+    "reto": "Memoriza Proverbios 3:5-6.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe Proverbios 3:5-6 de memoria" } ]
+  },
+
+  {
+    "n": 51, "fase": "Para toda la vida", "titulo": "Despójate de todo peso",
+    "ref": "Hebreos 12:1",
+    "versiculo": "Por tanto, nosotros también, teniendo en derredor nuestro tan grande nube de testigos, despojémonos de todo peso y del pecado que nos asedia, y corramos con paciencia la carrera que tenemos por delante,",
+    "leccion": "En diez días termina la app, pero no la carrera. Hoy miras tu lista del día 1 para ver qué ya soltaste y qué sigue pesando.",
+    "reto": "Relee tu día 1. Elige el siguiente peso que vas a soltar y escribe su plan “cuando… entonces…”.",
+    "prueba": "Escribir qué ya soltaste, qué sigue y el plan.",
+    "mostrar": 1,
+    "pasos": [
+      { "t": "write", "label": "¿Qué ya soltaste?", "min": 30 },
+      { "t": "write", "label": "Siguiente peso y su plan (Cuando… entonces…)", "min": 40, "must": ["cuando", "entonces"] }
+    ]
+  },
+  {
+    "n": 52, "fase": "Para toda la vida", "titulo": "Fiel sobre poco",
+    "ref": "Mateo 25:21",
+    "versiculo": "Y su señor le dijo: Bien, buen siervo y fiel; sobre poco has sido fiel, sobre mucho te pondré; entra en el gozo de tu señor.",
+    "leccion": "Hoy juntas toda la bola de nieve: un día completo con todas tus anclas.",
+    "reto": "Cumple hoy todas tus anclas, sin excepción.",
+    "prueba": "Marcar entre 5:00 y 5:20, y después de las 21:00 confirmar cada ancla.",
+    "pasos": [
+      { "t": "window", "label": "De pie y orando", "from": "05:00", "to": "05:20" },
+      { "t": "check", "label": "Confirma cada ancla de hoy", "items": ["Desperté con Dios, sin redes", "Leí Proverbios del día", "Lo difícil primero al llegar a casa", "Hice algo en casa sin que me lo pidieran", "Celular lejos a las 21:00"], "after": "21:00" }
+    ]
+  },
+  {
+    "n": 53, "fase": "Para toda la vida", "titulo": "Corre para ganar",
+    "ref": "1 Corintios 9:24",
+    "versiculo": "¿No sabéis que los que corren en el estadio, todos a la verdad corren, pero uno solo se lleva el premio? Corred de tal manera que lo obtengáis.",
+    "leccion": "El día 19 entrenaste 20 minutos. Hoy compruebas cuánto ha crecido tu disciplina física.",
+    "reto": "Treinta minutos de ejercicio, más exigente que el día 19.",
+    "prueba": "Temporizador de 30 minutos y comparación con tus números del día 19.",
+    "mostrar": 19,
+    "pasos": [
+      { "t": "timer", "label": "Entrena", "minutes": 30 },
+      { "t": "write", "label": "¿Qué hiciste hoy, comparado con el día 19? (con números)", "min": 25, "digits": true }
+    ]
+  },
+  {
+    "n": 54, "fase": "Para toda la vida", "titulo": "Estad quietos",
+    "ref": "Salmo 46:10",
+    "versiculo": "Estad quietos, y conoced que yo soy Dios; seré exaltado entre las naciones; enaltecido seré en la tierra.",
+    "leccion": "Una mente que siempre necesita estímulo no aguanta el silencio. Si ya lo aguantas, algo cambió en ti.",
+    "reto": "Veinte minutos de silencio total: sin música, sin teléfono, sin hacer nada más que estar delante de Dios.",
+    "prueba": "Temporizador de 20 minutos y escribir lo que vino a tu mente.",
+    "pasos": [
+      { "t": "timer", "label": "Silencio", "minutes": 20 },
+      { "t": "write", "label": "¿Qué vino a tu mente?", "min": 50 }
+    ]
+  },
+  {
+    "n": 55, "fase": "Para toda la vida", "titulo": "Descansad un poco",
+    "ref": "Marcos 6:31",
+    "versiculo": "Él les dijo: Venid vosotros aparte a un lugar desierto, y descansad un poco. Porque eran muchos los que iban y venían, de manera que ni aun tenían tiempo para comer.",
+    "leccion": "La disciplina que no descansa termina rompiéndose. Jesús mandó descansar a sus discípulos. El descanso también se planea.",
+    "reto": "Define tu día semanal de descanso y adoración: qué día, qué harás y qué no harás.",
+    "prueba": "Escribir tu plan de descanso semanal.",
+    "pasos": [
+      { "t": "write", "label": "Mi día de descanso será… y en él haré / no haré…", "min": 60 }
+    ]
+  },
+  {
+    "n": 56, "fase": "Para toda la vida", "titulo": "Lo que queda atrás",
+    "ref": "Filipenses 3:13-14",
+    "versiculo": "Hermanos, yo mismo no pretendo haberlo ya alcanzado; pero una cosa hago: olvidando ciertamente lo que queda atrás, y extendiéndome a lo que está delante, prosigo a la meta, al premio del supremo llamamiento de Dios en Cristo Jesús.",
+    "leccion": "Mirar atrás sirve para agradecer y aprender, no para quedarse ahí.",
+    "reto": "Escribe una carta a tu yo del día 1: qué le dirías ahora que sabes lo que sabes.",
+    "prueba": "Escribir la carta completa.",
+    "pasos": [
+      { "t": "write", "label": "Querido yo del día 1:", "min": 250 }
+    ]
+  },
+  {
+    "n": 57, "fase": "Para toda la vida", "titulo": "Él la perfeccionará",
+    "ref": "Filipenses 1:6",
+    "versiculo": "estando persuadido de esto, que el que comenzó en vosotros la buena obra, la perfeccionará hasta el día de Jesucristo;",
+    "leccion": "La obra no depende de que termines perfecto. Quien la empezó en ti la va a terminar.",
+    "reto": "Memoriza Filipenses 1:6.",
+    "prueba": "Escribirlo de memoria.",
+    "pasos": [ { "t": "memory", "label": "Escribe Filipenses 1:6 de memoria" } ]
+  },
+  {
+    "n": 58, "fase": "Para toda la vida", "titulo": "Como lo solía hacer",
+    "ref": "Daniel 6:10",
+    "versiculo": "Cuando Daniel supo que el edicto había sido firmado, entró en su casa, y abiertas las ventanas de su cámara que daban hacia Jerusalén, se arrodillaba tres veces al día, y oraba y daba gracias delante de su Dios, como lo solía hacer antes.",
+    "leccion": "Daniel no improvisó en la crisis: hizo lo que ya solía hacer. Su fidelidad era una regla de vida. Tú necesitas la tuya para cuando esta app ya no te diga qué hacer.",
+    "reto": "Escribe tu regla de vida: horas fijas de despertar, oración, lectura, trabajo, entrenamiento, descanso y sueño.",
+    "prueba": "Tu regla de vida por escrito, con horas.",
+    "pasos": [
+      { "t": "write", "label": "Mi regla de vida (con horas)", "min": 150, "digits": true }
+    ]
+  },
+  {
+    "n": 59, "fase": "Para toda la vida", "titulo": "Guarda tu corazón",
+    "ref": "Proverbios 4:23",
+    "versiculo": "Sobre toda cosa guardada, guarda tu corazón; porque de él mana la vida.",
+    "leccion": "Los límites se deciden antes de la presión, no durante. Y se sostienen mejor cuando alguien más los conoce.",
+    "reto": "Escribe tres límites no negociables para tu vida. Compártelos con tu persona de confianza del día 45.",
+    "prueba": "Tus tres límites y qué te dijo esa persona.",
+    "pasos": [
+      { "t": "write", "label": "Mis tres límites no negociables", "min": 60, "lines": 3 },
+      { "t": "write", "label": "Se los compartí a… y me dijo…", "min": 30 }
+    ]
+  },
+  {
+    "n": 60, "fase": "Para toda la vida", "titulo": "Sobre la roca",
+    "ref": "Mateo 7:24",
+    "versiculo": "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca;",
+    "leccion": "Sesenta pequeñas piedras. Ninguna cambió tu vida sola; juntas son un cimiento. Esto no termina aquí: aquí empieza tu regla de vida.",
+    "reto": "Lee la visión que escribiste el día 1. Escribe qué cambió, qué no, y tu siguiente paso. Después da gracias 5 minutos.",
+    "prueba": "Tu reflexión final por escrito y el temporizador de gratitud completo.",
+    "mostrar": 1,
+    "pasos": [
+      { "t": "write", "label": "¿Qué cambió en ti en estos 60 retos?", "min": 100 },
+      { "t": "write", "label": "¿Qué no cambió todavía, y cuál es tu siguiente paso?", "min": 60 },
+      { "t": "timer", "label": "Da gracias", "minutes": 5 }
+    ]
+  }
+]
